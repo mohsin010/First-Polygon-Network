@@ -1,0 +1,23 @@
+{
+  "name": "first-polygon-network",
+  "version": "1.0.0",
+  "description": "writing erc20 token and deploying it to polygon testnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "web3": "^1.9.0"
+  }
+}
