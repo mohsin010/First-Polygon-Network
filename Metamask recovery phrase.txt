@@ -10,4 +10,8 @@ Recipint Account address: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
 Polygon
 MyERC20Token Address: 0xD3cBC1D0E8029f314a38506eAe061e81f897DF57
 
+Goerli: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
 https://www.quicknode.com/guides/ethereum-development/smart-contracts/how-to-create-and-deploy-an-erc20-token/
+
+infura pwd: mgm@907%$

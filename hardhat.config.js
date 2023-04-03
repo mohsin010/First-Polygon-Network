@@ -1,4 +1,4 @@
-const { privateKey, mumbai_URL } = require("./config/config");
+const { privateKey, privateKey2, mumbai_URL, goerli_URL } = require("./config/config");
 
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-chai-matchers")
@@ -6,10 +6,9 @@ require("@nomicfoundation/hardhat-chai-matchers")
 module.exports = {
   solidity: "0.8.18",
   networks: {
-    mumbai: {
-      url: mumbai_URL,
-      chainId: 80001,
-      accounts: [privateKey],
+    goerli: {
+      url: goerli_URL,
+      accounts: [privateKey2],
     },
   },
 };
