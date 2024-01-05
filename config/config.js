@@ -5,4 +5,4 @@ module.exports = {
     privateKey2: "ab87c56ef05da6e5901a6b07dbc1b564283cc143c1a5c6669717d292ac80e170",
     goreliContractAddress: "0xd83f6078c7b70aB05D00385228E4715e7f925Df2",
     goerli_URL: "https://eth-goerli.g.alchemy.com/v2/Dr1CQyOev9gtrVOJwZ-FhQEmWbMPuyX1",
-}
+} 

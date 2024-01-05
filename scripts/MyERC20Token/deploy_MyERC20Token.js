@@ -5,7 +5,7 @@ const MyToken = require('../../artifacts/contracts/ERC20.sol/MyERC20Token.json')
 const { privateKey2 } = require('../../config/config');
 
 async function main() {
-    // Note: I deployed using 2nd script, have to try 1st one.
+    // Note: I deployed using 2nd script, have to try 1st one. 
     /*  const [deployer] = await ethers.getSigners();
      console.log('Deploying contracts with the account:', deployer.address);
  

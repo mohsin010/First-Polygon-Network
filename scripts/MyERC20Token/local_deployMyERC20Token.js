@@ -4,7 +4,7 @@ const { hre, ethers } = require("hardhat");
 
 async function main() {
 
-    //Creatig instance of lcoal hardhat network and deploying the contract
+    //Creatig instance of local hardhat network and deploying the contract
     const MyToken = await hre.ethers.getContractFactory("MyToken");
     const myToken = await MyToken.deploy();
     await myToken.deployed();

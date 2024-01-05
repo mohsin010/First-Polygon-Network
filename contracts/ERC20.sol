@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract MyERC20Token is ERC20 {
     address public owner;
-
+ 
     constructor() ERC20("MyERC20Token", "METK") {
         _mint(msg.sender, 100000 * 10 ** decimals());
         owner = payable(msg.sender);
